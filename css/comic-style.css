@@ -1,0 +1,114 @@
+.container {
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+.row {
+    /* IE10 */
+    display: -ms-flexbox;
+    display: flex;
+    /* IE10 */
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    max-width: 600px;
+    margin-top: 8px;
+    
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    /* IE10 */
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 300px;
+    padding: 0 4px;
+}
+
+
+img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.img-3x3 {
+    max-width: 300px;
+}
+
+.img-6x3 {
+    max-width: 600px;
+
+}
+
+.img-6x6 {
+    max-width: 600px;
+
+}
+
+.img-border {
+    position: relative;
+    overflow: hidden;
+    background: black;
+    padding: 4px;
+}
+
+.img-border-inner {
+    background: black;
+    padding: 2px;
+}
+
+.img-foreground-position {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    bottom: 4px;
+    left: 4px;
+}
+
+#panel-03,
+#panel-15,
+#panel-19,
+#panel-26-27,
+#panel-30 {
+    padding: 0 8px;
+}
+
+#panel-27new {
+    max-height: 190px;
+    position: relative;
+    z-index: 10;
+    overflow: visible;
+}
+
+.jack,
+.character-2 {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.panel-transition,
+#chapter-1,
+.end-chapter-1,
+#chapter-2,
+.end-chapter-2,
+#chapter-3,
+.end-chapter-3 {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.diamond {
+    position: absolute;
+    z-index: 10;
+}
+
+.appear {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.fast-appear {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
