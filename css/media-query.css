@@ -4,6 +4,9 @@
 @media screen and (max-width: 600px) {}
 
 @media screen and (max-width: 420px) {
+    .column {
+        flex: 100%;
+    }
     .img-border {
         padding: 3px;
     }
